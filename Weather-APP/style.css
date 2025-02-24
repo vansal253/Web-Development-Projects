@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    /* background-color: #161616; */
+    /* background: linear-gradient(15deg, #142850, #143862, #134e75, #116989, #0e8b9e, #09b5b4, #04ccb1); */
+    background-image: url(./index1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    min-height: 300px;
+    min-width: 450px;
+    box-shadow: 0px 0px 20px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    padding: 20px;
+    backdrop-filter: blur(8px);
+}
+
+h1 {
+    /* color: rgb(237, 8, 191); */
+    color: blacks;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#input-city {
+    height: 50px;
+    width: 70%;
+    border: none;
+    margin: 10px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    outline: none;
+    text-align: center;
+    color: white;
+    font-size: large;
+    background-color: #142850;
+}
+
+#input-city::placeholder {
+    padding: 10px;
+    font-size: medium;
+    text-align: left;
+    color: white;
+
+}
+
+#get-weather {
+    height: 50px;
+    width: 20%;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(112, 230, 80);
+    cursor: pointer;
+    font-size: 15px;
+    /* font-weight: b; */
+
+}
+
+#get-weather:hover {
+    background-color: rgb(69, 239, 21);
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    margin: 20px;
+    font-size: 38px;
+
+}
+
+.hidden {
+    display: none;
+}
+
+p {
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+#error-message {
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+    font-size: larger;
+}
+
+.contain {
+    background-image: url(./skyClear.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.haze {
+    background-image: url(./hazzy.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.snow {
+    background-image: url(./snow.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overcast {
+    background-image: url(./overcastCouds.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rain {
+    background-image: url(./rain.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.thunder {
+    background-image: url(./thunder.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Drizzle {
+    background-image: url(./drizzle.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mist {
+    background-image: url(./mist.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.blackColor {
+    color: black;
+}
