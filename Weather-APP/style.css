@@ -155,7 +155,6 @@ p {
     color: black;
 }
 
-
 @media (max-width: 768px) {
     .box {
         min-width: 90%;
