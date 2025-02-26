@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./output.css">
+    <title>Expense Tracker</title>
+</head>
+
+<body>
+    <div id="container" class="bg-gray-900 flex justify-center items-center flex-wrap h-screen">
+        <div id="box" class="min-h-[300px] w-[550px] border-2 bg-gray-600 shadow-2xl p-5 box-border rounded-lg">
+            <h1 class="text-white font-medium my-6 text-3xl text-center">Expense Tracker</h1>
+            <div>
+                <form action="" id="expense-form">
+                    <input type="text" id="input-expense-name"
+                        class="bg-gray-800 h-11 rounded-sm Name text-white outline-0 p-2 box-border"
+                        placeholder="Expense Tracker">
+                    <input type="number" id="input-expense-amount"
+                        class="bg-gray-800 h-11 rounded-sm  text-white outline-0 p-2 box-border" placeholder="Amount">
+                    <button type="submit" id="add-expenseBtn"
+                        class="text-white bg-blue-500 h-11 w-25 rounded-sm cursor-pointer">Add
+                        Expense</button>
+                </form>
+            </div>
+            <h1 class="text-white font-medium my-6 text-3xl text-center">Expenses</h1>
+            <!-- <div id="expenseDiv" class=""> -->
+
+            <!-- <div id="listingDiv" -->
+            <!-- class="mb-2.5 flex justify-between bg-gray-800 h-11 p-1.5 rounded-sm Name text-white outline-0"> -->
+            <!-- <span id="expense-list">Course</span>
+                    <button id="delete-itemBtn" class="text-white bg-blue-500 h-8 w-20  rounded-sm
+                        cursor-pointer">Delete</button> -->
+            <!-- </div> -->
+            <ul id="expense-list">
+                <!-- Expenses will be dynamically added here -->
+            </ul>
+            <!-- </div> -->
+            <div id="totalDiv" class="text-center">
+                <h3 class="text-white font-medium my-6 text-xl text-center">Total: $<span
+                        id="total-expenseSpan">0.00</span>
+                </h3>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
